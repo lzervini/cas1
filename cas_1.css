@@ -1,0 +1,60 @@
+body{
+    font-family:"Rubik";
+    font-size: 1.34em;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-left: 23.125rem;
+    padding-right: 23.125rem;
+    margin: 0;
+    
+
+}
+
+/* Taille/ style de caractère */
+.medium{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 3.01em;
+}
+
+h2{
+    font-size: 1.67em;
+}
+
+p:nth-child(2){
+font-size: 1.42em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Contour */
+
+.bordure{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.10);
+    margin-left: 1.938rem;
+    padding: 3.563rem 2rem 3.188rem 2rem;
+}
+
+/* Flexbox */
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+
+.padding{
+    padding: 5.75rem 13.438rem 5.75rem 13.438rem;
+}
+
