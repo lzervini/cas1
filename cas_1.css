@@ -212,3 +212,45 @@ font-size: 1.42em;
 
 }
 
+
+/* Media Queries TABLETTE Paysage */
+
+@media (max-width: 1024px) and (orientation: landscape){
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .padding{
+        padding: 2rem 4rem 2rem 4rem;    
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+
+    h1{
+        font-size:2.5rem;
+        margin: 1rem 1rem 2.50rem 1rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size:1.188rem;
+    }
+
+    p:last-child{
+        font-size:0.625em;
+    }
+
+    .bordure{
+        padding: 1.25rem;
+        margin: 1.25rem 0 1.25rem 0;
+    }
+
+    .padmob{
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+}
