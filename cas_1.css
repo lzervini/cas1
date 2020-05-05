@@ -63,7 +63,7 @@ font-size: 1.42em;
 }
 
 
-/* Media Queries PORTRAIT*/
+/* Media Queries MOBILE PORTRAIT*/
 @media (orientation: portrait) and (max-width: 320px) {
 
     body{
@@ -115,7 +115,7 @@ font-size: 1.42em;
     }
 }
 
-/* Media Queries PAYSAGE */
+/* Media Queries MOBILE PAYSAGE */
 @media (orientation: landscape) and (max-width: 480px){
 
     body{
@@ -168,3 +168,47 @@ font-size: 1.42em;
     }
 
 }
+
+/* Media Queries TABLETTE PORTRAIT */
+@media (orientation: portrait) and (max-width: 1024px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .padding{
+        padding: 4rem;    
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+
+    h1{
+        font-size:2.5rem;
+        margin: 1rem 1rem 2.50rem 1rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size:1.188rem;
+    }
+
+    p:last-child{
+        font-size:0.625em;
+    }
+
+    .bordure{
+        padding: 1.25rem;
+        margin: 0;
+        margin-bottom: 1.25rem;
+    }
+
+    .padmob{
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+
+}
+
