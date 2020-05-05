@@ -53,8 +53,64 @@ font-size: 1.42em;
     justify-content: space-between;
 }
 
+.wrap{
+    flex-wrap: nowrap;
+}
 
+/* Padding */
 .padding{
     padding: 5.75rem 13.438rem 5.75rem 13.438rem;
 }
 
+
+/* Media Queries PORTRAIT*/
+@media(max-width: 320px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .padding{
+        padding: 1.25rem;    
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+
+    h1{
+        font-size:2.5rem;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size:0.938rem;
+    }
+
+    p:last-child{
+        display: none;
+    }
+
+    .bordure{
+        padding: 1.25rem;
+        margin: 0;
+        margin-bottom: 1.25rem;
+    }
+
+    .padmob{
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+
+    .intrus{
+        padding-left: 1.38rem;
+        padding-right: 1.38rem;
+    }
+
+    .intrus2{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
