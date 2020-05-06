@@ -65,59 +65,19 @@ font-size: 1.42em;
 
 
 /* Media Queries MOBILE PORTRAIT*/
-@media (orientation: portrait) and (max-width: 320px) {
+@media only screen and (orientation: portrait) and (max-device-width:600px) {
 
-    body{
-        margin: 0;
-        padding: 0;
-    }
-
-    .padding{
-        padding: 1.25rem;    
-    }
-
-    .wrap{
-        flex-wrap: wrap;
-    }
-
-    h1{
-        font-size:2.5rem;
-        margin: 1rem;
-        text-align: center;
-    }
-
-    h2{
-        font-size:0.938rem;
-    }
-
-    p:last-child{
+    p:nth-child(3){
         display: none;
     }
 
-    .bordure{
-        padding: 1.25rem;
-        margin: 0;
-        margin-bottom: 1.25rem;
-    }
+    
+   
 
-    .padmob{
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
-    }
-
-    .intrus{
-        padding-left: 1.38rem;
-        padding-right: 1.38rem;
-    }
-
-    .intrus2{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
 }
 
 /* Media Queries MOBILE PAYSAGE */
-@media (orientation: landscape) and (max-width: 480px){
+@media (orientation: landscape) and (max-width:767.98px){
 
     body{
         margin: 0;
