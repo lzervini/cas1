@@ -64,6 +64,7 @@ font-size: 1.42em;
 }
 
 
+
 /* Media Queries MOBILE PORTRAIT*/
 @media only screen and (orientation: portrait) and (max-device-width:600px) {
 
@@ -71,9 +72,21 @@ font-size: 1.42em;
         display: none;
     }
 
-    
-   
+    #lot4{
+        display: flex;
+        justify-content: center;
+        padding: 0.925rem;
+    }
 
+    section .bordure{
+        width: 90%;
+        margin-bottom: 3rem ;
+    }
+
+    section .bordure:hover{
+        cursor: pointer;
+    }
+   
 }
 
 /* Media Queries MOBILE PAYSAGE */
@@ -112,20 +125,13 @@ font-size: 1.42em;
         margin-bottom: 1.25rem;
     }
 
-    .padmob{
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
+    .intrus header{
+        padding-left: 0.250rem;
     }
 
-    .intrus{
-        padding-left: 1.38rem;
-        padding-right: 1.38rem;
-    }
-
-    .intrus2{
-        margin-left: 9.8rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+    .intrus2 header{
+       padding-right: 1rem;
+       padding-left: 1rem;
     }
 
 }
